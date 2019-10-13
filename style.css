@@ -1,0 +1,40 @@
+li{
+    align-content: center;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+.timecss{
+     
+    text-align: right;
+    
+}
+.bg-info {
+    border-radius: 20px;
+    text-align: center;
+    width: 144px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    position: relative;
+    justify-content: center;
+}
+#timer {
+    float: right;
+    margin-top: -180px;
+}
+#choices{
+    margin: 50px;
+}
+#progress {
+    color: #17a2b8;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+.buttonholder {
+    text-align: center;
+}
