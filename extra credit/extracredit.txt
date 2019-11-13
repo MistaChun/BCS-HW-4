@@ -1,0 +1,26 @@
+Extra Credit on Express.js
+Express is a lightweight and fast frame-work designed to build web applications.
+ful services, also called RESTful APIs, stands for Representational State 
+Transfer. It is a convention for building HTTP services. They create, read, 
+and delete data which all falls under CRUD operations. There are HTTP methods 
+which are: Get, Post, Put, and Delete. All of these are used for the data 
+received. These methods are used when requesting and then the response will 
+give back the information desired based on which HTTP method is used. Express 
+is used the same way you would use any other module by calling it with a require 
+and then storing it in a constant or variable. It has all the methods from the
+HTTP methods. When you have a get request, you put down a “/” to represent the
+root of the website and then have another method as the callback function
+(request and response). To summarize, the way express works is a user calls
+in a request and then a response is created as a method with the website
+url and callback functions to send back the response. Express can also 
+use “listen” and put the response in a local host by putting out a port. 
+Though arbitrary ports won’t work in production environments, a port variable is 
+needed. Nodemon is used to monitor any changes in your source and automatically 
+restarts your server. It can be installed by typing in “npm i -g nodemon”. This 
+then requires you to type nodemon instead of node when trying to do runtime. It 
+will restart when there are changes. When a client asks for a resource that does
+not exist, there should be a 404 code saying that the code does not exist. This 
+message has to be created in such case. You can test out HTTP services by using a
+Chrome extension called Postman to see if it works. Input validation is used to
+validate whatever the client writes down and should always be done to check what
+the client writes down. 
